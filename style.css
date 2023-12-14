@@ -1,0 +1,45 @@
+html,
+body {
+    height: 100vh;
+    width: 100vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: rgb(231, 242, 238);
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    background-color: rgb(182, 236, 236);
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    max-width: max-content;
+    margin-left: 37rem;
+}
+
+button {
+    font-size: large;
+    padding: 15px 15px 15px 15px;
+    border-radius: 5px;
+    background-color: rgb(188, 188, 236);
+}
+
+dialog {
+    background-color: aliceblue;
+    border-radius: 15px;
+    border-color: rgb(254, 225, 232);
+    border-width: thick;
+}
+
+::backdrop {
+    background-color: rgb(213, 239, 230);
+    opacity: 0.5;
+}
